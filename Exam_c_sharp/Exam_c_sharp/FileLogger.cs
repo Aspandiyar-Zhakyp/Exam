@@ -11,9 +11,8 @@ namespace Exam_c_sharp
         {
             var file = (File.Exists(road));
 
-            using (var stream = File.Open(road, file))
+            using (var stream = File.OpenRead())
             {
-                var data = ""
             }
         }
     }
